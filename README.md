@@ -7,91 +7,117 @@
 
 ---
 
-This repository contains a Jupyter Notebook for preparing the Titanic dataset. The notebook demonstrates robust data cleaning, exploratory data analysis (EDA), and preprocessing to produce a clean, model-ready dataset.
+## Overview
+A well-documented Jupyter Notebook project demonstrating robust **data cleaning**, **exploratory data analysis (EDA)**, and **preprocessing** to build a machine learning-ready dataset using the classic Titanic data.
 
----
+## Table of Contents
+- [Project Overview](#overview)
+- [Dataset](#dataset)
+- [Features & Workflow](#features--workflow)
+- [Installation & Usage](#installation--usage)
+- [Project Structure](#project-structure)
+- [Results & Insights](#results--insights)
+- [Next Steps](#next-steps)
+- [Contributing](#contributing)
+- [Contact](#contact)
+- [License](#license)
+
+***
 
 ## Dataset
 
-The Titanic dataset used in this project is sourced from Kaggle:
+**Source:** [Kaggle – Titanic Dataset](https://www.kaggle.com/datasets/yasserh/titanic-dataset/data)
 
-[Titanic Dataset on Kaggle](https://www.kaggle.com/datasets/yasserh/titanic-dataset/data)
+*Download the `titanic.csv` and place it in your working directory.*
 
-Make sure to download the `titanic.csv` file and place it in the working directory before running the notebook.
+***
 
----
+## Features & Workflow
 
-## Features of the Notebook
+- **Comprehensive EDA**  
+  Visualizations/statistics to explore distributions, missing values, and relationships to the target.
 
-- **Comprehensive Exploratory Data Analysis (EDA):**  
-  Visualizations and statistics to understand data distributions, missing values, and relationships with the target variable.
+- **Data Cleaning & Preprocessing:**  
+  - Missing value imputation (median/mode).
+  - Dropping irrelevant/excessive-missing columns (`Cabin`, `Ticket`, `PassengerId`, `Name`).
+  - Encoding categorical features (mapping, one-hot).
 
-- **Data Cleaning and Preprocessing:**  
-  - Handling missing values with median and mode imputation.  
-  - Dropping columns with excessive missing data (`Cabin`) and irrelevant features (`Ticket`, `PassengerId`, `Name`).  
-  - Encoding categorical variables using mapping and one-hot encoding.
-
-- **Robust Preprocessing Pipeline:**  
-  Separate pipelines for numeric and categorical features with imputation and encoding, integrated via `ColumnTransformer`.
+- **Preprocessing Pipeline:**  
+  Separate pipelines for numeric & categorical columns, integrated via `ColumnTransformer`.
 
 - **Output:**  
-  A fully processed, encoded dataset saved as `titanic_advanced_prepared.csv` ready for machine learning modeling.
+  Processed CSV (`titanic_advanced_prepared.csv`), ready for ML models.
 
----
+***
 
-## How to Use
+## Installation & Usage
 
-1. **Clone the repository** or download the notebook and dataset.
+**1. Clone this repository or download the notebook and dataset.**  
+**2. Download Titanic CSV (`titanic.csv`) from Kaggle and place it in the repo folder.**  
+**3. Run the Jupyter Notebook (`Data_Pipeline_Development.ipynb`) step-by-step.**  
+**4. The processed dataset is saved as `titanic_advanced_prepared.csv`.**  
+**5. Train ML models (e.g., Logistic Regression, Random Forest) on the output data.**
 
-2. **Download the Titanic dataset CSV** from Kaggle and place it in the same directory as the notebook, named `titanic.csv`.
-
-3. **Open and run the Jupyter Notebook** (`titanic_data_preparation.ipynb`) step-by-step to perform data preparation.
-
-4. **Processed data output:**  
-   After running, the notebook saves the processed dataset as `titanic_advanced_prepared.csv`.
-
-5. **Next steps:**  
-   Use the prepared dataset for training machine learning models such as Logistic Regression, Random Forest, or XGBoost.
-
----
-
-## Requirements
+### Requirements
 
 - Python 3.7+
 - Jupyter Notebook
-- Libraries:
-  - pandas
-  - numpy
-  - matplotlib
-  - seaborn
-  - scikit-learn
-
-Install required packages via pip if needed:
+- pandas, numpy, matplotlib, seaborn, scikit-learn
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn
 ```
 
----
+***
 
 ## Project Structure
 
 ```
-.
-├── titanic.csv                      # Raw Titanic dataset CSV (download from Kaggle)
-├── titanic_data_preparation.ipynb  # Jupyter Notebook with data preparation
-├── titanic_advanced_prepared.csv   # Processed dataset output by the notebook
-└── README.md                       # This file
+├── titanic.csv                 # Raw dataset (from Kaggle)
+├── Data_Pipeline_Development.ipynb   # Preparation notebook
+├── titanic_advanced_prepared.csv     # ML-ready output
+└── README.md                   # This documentation
 ```
 
----
+***
+
+## Results & Insights
+
+- Full data cleaning/preprocessing steps
+- EDA with visual summaries (see notebook for matplotlib/seaborn plots)
+- Well-prepared dataset with categorical encoding and imputation
+- Useful for building ML models for Titanic survival prediction
+
+***
+
+## Next Steps
+
+- Use this pipeline as a template for other tabular ML projects
+- Extend analysis: Feature engineering, model training, hyperparameter tuning
+- Integrate with cloud workflow (e.g., Google Colab, AWS S3) if needed
+
+## Contributing
+
+Issues, discussions, and pull requests are welcome!  
+Open [issues](https://github.com/Kanakbaghel/Data_Pipeline_Development/issues) for suggestions or bugs.
+
+***
 
 ## Contact
 
-For questions or suggestions, feel free to open an issue or contact me.
+For questions or feedback, open an issue or contact [Kanakbaghel](https://github.com/Kanakbaghel).
 
----
+***
 
 ## License
 
-This project is open source and available under the MIT License.
+This project is available under the MIT License.
+
+
+> <h3 style="color: #8B7D8B;">Built with persistence and curiosity</h3>
+
+----------
+
+<p align="center"><em>Crafted with ♥ by <strong>Kanak Baghel</strong> | <a href="https://www.linkedin.com/in/kanakbaghel">LinkedIn</a></em></p>
+
+---
