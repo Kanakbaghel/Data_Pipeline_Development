@@ -113,6 +113,7 @@ For questions or feedback, open an issue or contact [Kanakbaghel](https://github
 
 This project is available under the MIT License.
 
+---
 
 > <h3 style="color: #8B7D8B;">Built with persistence and curiosity</h3>
 
