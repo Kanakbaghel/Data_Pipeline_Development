@@ -6,6 +6,8 @@
 
 ---
 
+ _Explore my more TechNest Tasks_ [Here](https://github.com/Kanakbaghel/TechNest-Internship)
+ --------
 <p align="center">
   <img width="1200" height="630" alt="Data Pipeline Development Banner" src="https://github.com/user-attachments/assets/303999c6-e504-4153-b88c-e9b4a10eaf07" />
 </p>
