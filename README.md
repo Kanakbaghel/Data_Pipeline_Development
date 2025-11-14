@@ -35,7 +35,6 @@ Welcome! This is a **hands-on Jupyter Notebook project** that walks you through 
 - [What's Next?](#whats-next)
 - [Want to Help?](#want-to-help)
 - [Get in Touch](#get-in-touch)
-- [License](#license)
 
 ---
 
@@ -134,12 +133,6 @@ Love this project? Awesome! Here's how you can contribute:
 Got questions or want to chat about data? Reach out:
 - **GitHub:** [Kanakbaghel](https://github.com/Kanakbaghel)
 - **LinkedIn:** [Kanak Baghel](https://www.linkedin.com/in/kanakbaghel)
-
----
-
-## License
-
-This project is open-source under the MIT License. Feel free to use, share, and build on it!
 
 ---
 
